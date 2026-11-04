@@ -141,7 +141,8 @@
         "devtools-times"
       ],
       "switch": [
-        "daily-grind"
+        "daily-grind",
+        "daily-grind-limited"
       ],
       "validate-input-after-interaction": [
         "task"
@@ -256,6 +257,9 @@
       "optimize-script-priority": [
         "task"
       ],
+      "out-of-order-html-streaming": [
+        "daily-grind"
+      ],
       "performance": [
         "task"
       ],
@@ -321,6 +325,9 @@
         "daily-grind"
       ],
       "security": [
+        "daily-grind"
+      ],
+      "trusted-types": [
         "daily-grind"
       ],
       "validate-origins": [
@@ -519,13 +526,18 @@
       ],
       "scrollspy": [
         "daily-grind",
-        "devtools-times"
+        "daily-grind-limited"
       ],
       "spinner": [
         "daily-grind"
       ],
       "stack-drill-down": [
         "task"
+      ]
+    },
+    "user-experience": {
+      "content-first-noise-reduction": [
+        "daily-grind"
       ]
     },
     "visual-design": {
@@ -557,7 +569,8 @@
         "task"
       ],
       "equal-width-text-lines": [
-        "daily-grind"
+        "daily-grind",
+        "daily-grind-limited"
       ],
       "export-html-media-from-canvas": [
         "task"
@@ -612,5 +625,31 @@
         "devtools-times"
       ]
     }
-  }
+  },
+  "disciplineGuides": [
+    "accessibility",
+    "browser-ui-theming",
+    "color",
+    "content-first-noise-reduction",
+    "cpp-on-the-web",
+    "css",
+    "css-conditionals",
+    "css-layout",
+    "form-factor-adaptation",
+    "forms",
+    "guided-navigation",
+    "html",
+    "motion",
+    "natural-interactions",
+    "passkeys",
+    "performance",
+    "preference-aware-ui",
+    "privacy",
+    "responsive-design",
+    "security",
+    "typography",
+    "visual-effects",
+    "web-components",
+    "webmcp"
+  ]
 }

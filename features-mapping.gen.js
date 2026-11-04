@@ -380,9 +380,6 @@ window.__featuresMapping = {
   "optimize-script-priority": [
     "fetch-priority"
   ],
-  "optimize-scroll-stability": [
-    "contain-intrinsic-size"
-  ],
   "out-of-order-html-streaming": [
     "template-for",
     "html-setters",
@@ -587,6 +584,11 @@ window.__featuresMapping = {
   "carousel-snap-highlights": [
     "container-scroll-state-queries"
   ],
+  "client-side-routing": [
+    "navigation",
+    "view-transitions",
+    "active-view-transition"
+  ],
   "consistent-cross-document-transitions": [
     "blocking-render",
     "link-rel-expect",
@@ -761,12 +763,17 @@ window.__featuresMapping = {
     "transition-behavior",
     "starting-style",
     "details-name",
-    "details"
+    "details",
+    "invoker-commands"
   ],
   "breadcrumbs": [
     "border-shape",
     "corner-shape",
-    "popover"
+    "sibling-count",
+    "forced-colors",
+    "focus-visible",
+    "clip-path",
+    "logical-properties"
   ],
   "card": [
     "has",
@@ -907,7 +914,9 @@ window.__featuresMapping = {
   ],
   "content-first-noise-reduction": [
     "popover",
-    "details"
+    "details",
+    "invoker-commands",
+    "container-scroll-state-queries"
   ],
   "form-factor-adaptation": [
     "container-queries",

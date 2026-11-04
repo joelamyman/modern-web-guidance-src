@@ -961,7 +961,7 @@
       "id": "break-up-long-tasks",
       "category": "performance",
       "title": "Break Up Long Tasks",
-      "description": "Break up heavy synchronous processing (complex computations and/or long loops) or DOM updates, to let the browser handle user input and repaint the screen.",
+      "description": "Break up heavy synchronous processing (complex computations and/or long loops) or DOM updates to improve Interaction to Next Paint (INP) responsiveness and let the browser handle user input and repaint the screen.",
       "features": [
         "scheduler"
       ],
@@ -1364,21 +1364,6 @@
         {
           "id": "negative-demo",
           "path": "guides/performance/optimize-script-priority/negative-demo.html"
-        }
-      ]
-    },
-    {
-      "id": "optimize-scroll-stability",
-      "category": "performance",
-      "title": "optimize-scroll-stability",
-      "description": "Keep the page layout, scroll bar, and scroll position as stable as possible as users scroll through content-heavy pages (feeds, dashboards, long lists) where elements transition from hidden to visible.",
-      "features": [
-        "contain-intrinsic-size"
-      ],
-      "demos": [
-        {
-          "id": "demo",
-          "path": "guides/performance/optimize-scroll-stability/demo.html"
         }
       ]
     },
@@ -2689,6 +2674,48 @@
       ]
     },
     {
+      "id": "accordion",
+      "category": "ui-components",
+      "title": "Accordion",
+      "description": "Build an accordion component with animation, optional exclusive (one-open-at-a-time) behavior, and brand-consistent styling.",
+      "features": [
+        "hidden-until-found",
+        "interpolate-size",
+        "transition-behavior",
+        "starting-style",
+        "details-name",
+        "details",
+        "invoker-commands"
+      ],
+      "demos": [
+        {
+          "id": "demo",
+          "path": "guides/ui-components/accordion/demo.html"
+        }
+      ]
+    },
+    {
+      "id": "breadcrumbs",
+      "category": "ui-components",
+      "title": "Build breadcrumbs",
+      "description": "Build a breadcrumb trail that shows the user's location within a site hierarchy and lets them navigate to ancestor pages.",
+      "features": [
+        "border-shape",
+        "corner-shape",
+        "sibling-count",
+        "forced-colors",
+        "focus-visible",
+        "clip-path",
+        "logical-properties"
+      ],
+      "demos": [
+        {
+          "id": "demo",
+          "path": "guides/ui-components/breadcrumbs/demo.html"
+        }
+      ]
+    },
+    {
       "id": "card",
       "category": "ui-components",
       "title": "Build a Card",
@@ -3378,7 +3405,6 @@
     "color-scheme",
     "conic-gradients",
     "connection-allowlists",
-    "contain-intrinsic-size",
     "container-anchor-position-queries",
     "container-queries",
     "container-scroll-state-queries",
@@ -3405,8 +3431,10 @@
     "fetchlater",
     "field-sizing",
     "file-selector-button",
+    "focus-visible",
     "focusgroup",
     "font-size-adjust",
+    "forced-colors",
     "form-associated-custom-elements",
     "function",
     "has",
@@ -3439,6 +3467,7 @@
     "loading-lazy",
     "loading-lazy-media",
     "local-network-access",
+    "logical-properties",
     "long-animation-frames",
     "masks",
     "meta-text-scale",
