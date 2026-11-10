@@ -563,6 +563,17 @@ window.__featuresMapping = {
   "shrinking-header-on-scroll": [
     "scroll-driven-animations"
   ],
+  "single-line-overflow": [
+    "text-overflow",
+    "container-queries",
+    "scroll-driven-animations",
+    "container-style-queries",
+    "masks",
+    "interpolate-size",
+    "resize-observer",
+    "registered-custom-properties",
+    "individual-transforms"
+  ],
   "state-aware-sticky-headers": [
     "container-scroll-state-queries"
   ],
@@ -626,7 +637,10 @@ window.__featuresMapping = {
     "user-select"
   ],
   "drag-and-drop": [
-    "user-select"
+    "move-before",
+    "pointer-events-api",
+    "user-select",
+    "reading-flow"
   ],
   "dynamic-sibling-animations": [
     "sibling-count"
@@ -803,8 +817,11 @@ window.__featuresMapping = {
   ],
   "carousel": [
     "scroll-snap",
+    "scroll-behavior",
+    "scrollend",
+    "scroll-snap-events",
     "scroll-driven-animations",
-    "scroll-buttons"
+    "sibling-count"
   ],
   "checkbox": [
     "accent-color",
@@ -889,6 +906,7 @@ window.__featuresMapping = {
     "content-visibility"
   ],
   "navigation-drawer": [
+    "dialog",
     "inert",
     "intersection-observer",
     "popover",
@@ -903,6 +921,7 @@ window.__featuresMapping = {
   ],
   "persistent-toast-notifications": [
     "popover",
+    "arianotify",
     "anchor-positioning",
     "sibling-count",
     "transition-behavior"
